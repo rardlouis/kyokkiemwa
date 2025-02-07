@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Picture with Button</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            flex-direction: column;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .image-container {
+            width: 50%; /* Make the image smaller but still prominent */
+            max-width: 500px;
+            padding: 10px;
+            border: 5px solid #333;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(45deg, #007bff, #00d4ff);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: linear-gradient(45deg, #0056b3, #0094cc);
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey Kyokkie, I want to ask you something.</h1>
+    <div class="image-container">
+        <img src="minion1.jpg" alt="Big Picture">
+    </div>
+    <button onclick="showAlert()">Click This</button>
+
+    <script>
+        function showAlert() {
+            alert("hi kyokkie or my kyoggers");
+            setTimeout(() => alert("sorry if sometimes i make your day bad"), 200);
+            setTimeout(() => alert("I want you to know that sometimes i cant show you my emotion really well."), 400);
+            setTimeout(() => alert("but this website is my way of asking you. to be my valentines this year."), 600);
+            setTimeout(() => alert("I know its a bad timing so i revise some few codes because we aint good this day."), 800);
+			setTimeout(() => alert("I promise you that i will try to explain everything and show u my emotion so you wont be confuse sometimes."), 1000);
+			setTimeout(() => alert("Kyokkie please be my valentines and i am assuring you now im here for a long term."), 1200);
+			  setTimeout(() => {
+                alert("please.");
+                window.location.href = "kyokkie2.html";
+            }, 1400);
+        }
+    </script>
+</body>
+</html>
+
